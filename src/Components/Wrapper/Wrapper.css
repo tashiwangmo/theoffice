@@ -1,0 +1,10 @@
+.wrapper {
+    background: white;
+    /* background-image: url('https://wallpaper-house.com/data/out/12/wallpaper2you_565229.jpg');
+    display: flex; */
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-content: flex-start;
+     overflow: auto; 
+    padding-bottom: 50px; 
+  }
