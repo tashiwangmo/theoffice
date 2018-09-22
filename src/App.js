@@ -40,7 +40,7 @@ class App extends Component {
     const newScore = this.state.currentScore + 1;
     this.setState({
       currentScore: newScore,
-      rightWrong: ""
+      rightWrong: "Click on an image to begin!"
     });
     if (newScore >= this.state.topScore) {
       this.setState({ topScore: newScore });
@@ -70,7 +70,7 @@ class App extends Component {
     return (
       <Wrapper>
         <Nav
-          title="The OFFICE"
+          title="the office"
           score={this.state.currentScore}
           topScore={this.state.topScore}
           rightWrong={this.state.rightWrong}

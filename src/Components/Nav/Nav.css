@@ -1,16 +1,16 @@
 nav {
     width: 100%;
-    font-size: 3rem;
     color: #fff;
     margin-bottom: 30px;
     background-color: darkblue;
     height: auto;
     font-family: 'Courier New', Courier, monospace;
-   
   }
   
   a {
-    color: light grey;
+    color: white;
+    font-weight:30px;
+    font-size: 5rem;
   }
   
   a:hover {
@@ -22,6 +22,7 @@ nav {
     display: inline-block;
     padding: 26px 0;
     width: 25%;
+    font-size: 2.5rem;
     /* text-align: center; */
   }
   
